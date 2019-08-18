@@ -1,5 +1,17 @@
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 25px 15px;
+}
+
+.char-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  margin: 25px 0;
+}
+
+.char-card img {
+  margin-bottom: 10px;
 }
