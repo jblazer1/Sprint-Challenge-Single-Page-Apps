@@ -13,6 +13,11 @@ nav {
   width: 40%;
 }
 
+span {
+  font-weight: 600;
+  font-size: 20px;
+}
+
 .location-card {
   display: flex;
   flex-direction: column;
@@ -21,6 +26,8 @@ nav {
   border: 1px solid red;
   margin: 25px 0;
   width: 40%;
+  padding: 20px 0;
+  font-size: 15px;
 }
 
 .char-card img {

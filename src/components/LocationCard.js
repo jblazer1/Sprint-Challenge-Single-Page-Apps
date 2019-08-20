@@ -4,9 +4,9 @@ export default function LocationCard(props) {
   // console.log(location);
   return (
     <div className="location-card">
-      {props.location.name}
-      {props.location.type}
-      {props.location.dimension}
+      <h3>Type: {props.location.type}</h3>
+      <p>Name: {props.location.name}</p>
+      <p>Dimension: {props.location.dimension}</p>
       {/* {props.location.residents} */}
     </div>
   );

@@ -9,6 +9,7 @@ import LocationList from "./components/LocationsList.js";
 // import SearchForm from "./components/SearchForm.js";
 
 import "./App.css";
+import EpisodeList from "./components/EpisodeList.js";
 
 // import AppRouter from "./components/AppRouter.js";
 
@@ -27,7 +28,7 @@ export default function App() {
       <Route exact path="/" component={WelcomePage} />
       <Route path="/characters" component={CharacterList} />
       <Route path="/locations" component={LocationList} />
-      {/* <Route path="/episodes" component={SearchForm} /> */}
+      <Route path="/episodes" component={EpisodeList} />
 
       {/* <TabNav /> */}
       {/* <AppRouter /> */}
