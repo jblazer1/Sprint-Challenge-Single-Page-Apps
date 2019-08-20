@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, NavLink } from "react-router-dom";
+import { Tab } from "semantic-ui-react";
 
 import TabNav from "./components/TabNav.js";
 import Header from "./components/Header.js";
