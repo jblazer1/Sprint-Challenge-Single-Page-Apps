@@ -10,6 +10,17 @@ nav {
   justify-content: space-around;
   text-align: center;
   margin: 25px 0;
+  width: 40%;
+}
+
+.location-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  border: 1px solid red;
+  margin: 25px 0;
+  width: 40%;
 }
 
 .char-card img {
