@@ -11,9 +11,10 @@ nav {
   text-align: center;
   margin: 25px 0;
   width: 40%;
-  box-shadow: 20px 20px 20px grey;
+  /* box-shadow: 20px 20px 20px grey; */
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
   border-radius: 10px;
-  background-color: beige;
+  /* background-color: beige; */
 }
 
 .char-card img {
@@ -26,14 +27,27 @@ span {
 }
 
 .location-card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   margin: 25px 0;
   width: 40%;
   padding: 20px 0;
+  font-size: 15px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.location-card span {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  background-color: lightgray;
+  width: 110px;
+  height: 25px;
+  padding-top: 3px;
   font-size: 15px;
 }
 
